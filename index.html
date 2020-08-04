@@ -18,6 +18,12 @@
     <!------ sidebar ------>
         <div class="row">
             <aside class="col-3 recentCities">
+                <nav class="navbar navbar-light">
+                    <form class="form-inline">
+                      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                  </nav>
                 <ul class="cities">
                     <li>
                         New York
@@ -45,17 +51,53 @@
     <!------ weather cards ------>
             <section class="col-9 currentWeather">
                 <div class="wrapper">
-                    <div class="day">monday</div>
+                    <div class="cityAndDate"></div>
                     <image class="forecastImg"></image>
-                    <div class="description">it's gon' rain n stuff</div>
+                    <div class="temp"></div>
+                    <div class="humidity"></div>
+                    <div class="wind"></div>
+                    <div class="uv"></div>
                 </div>            
             </section>
         </div>
         
     </div>
-    <div class="col-12 forecast">
-        
-    </div>
+    <div class="forecastContainer">
+        <div class="block day1">
+            <div class="date">today</div>
+            <div class="weatherIcon">a picture</div>
+            <div class="hiTemp">102</div>
+            <div class="lowTemp">87</div>
+            <div class="futureHumidity">80%</div>        
+        </div>
+        <div class="block day2">
+            <div class="date">today</div>
+            <div class="weatherIcon">a picture</div>
+            <div class="hiTemp">102</div>
+            <div class="lowTemp">87</div>
+            <div class="futureHumidity">80%</div>        
+        </div>
+        <div class="block day3">
+            <div class="date">today</div>
+            <div class="weatherIcon">a picture</div>
+            <div class="hiTemp">102</div>
+            <div class="lowTemp">87</div>
+            <div class="futureHumidity">80%</div>        
+        </div>
+        <div class="block day4">
+            <div class="date">today</div>
+            <div class="weatherIcon">a picture</div>
+            <div class="hiTemp">102</div>
+            <div class="lowTemp">87</div>
+            <div class="futureHumidity">80%</div>        
+        </div>
+        <div class="block day5">
+            <div class="date">today</div>
+            <div class="weatherIcon">a picture</div>
+            <div class="hiTemp">102</div>
+            <div class="lowTemp">87</div>
+            <div class="futureHumidity">80%</div>        
+        </div>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="script.js"></script>

@@ -21,6 +21,7 @@ header h1{
 
 .recentCities{
     background-color: blue;
+    color: white;
 }
 
 .currentWeather{
@@ -29,4 +30,22 @@ header h1{
 
 li{
     list-style-type: none;
+}
+
+.forecastContainer{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.block{
+    height: 250px;
+    width: 200px;
+    border-style: solid;
+}
+
+.navbar{
+    margin-top: 10px;
+    background-color: blue;
+    float: left;
 }
