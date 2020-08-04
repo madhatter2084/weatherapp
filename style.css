@@ -5,7 +5,7 @@
 
 header{
     background-image: url(./Assets/16570.png);
-    height: 3em;
+    height: 5em;
     position: relative;
     margin: 0 auto;
 }
@@ -19,20 +19,11 @@ header h1{
     color: black;
 }
 
-.container{
-    display: flex;
-    margin: 0;
-}
-
-.cities{
-    float: left;
-    width: 100%;
-    height: 100%;
+.recentCities{
     background-color: blue;
 }
 
 .forecast{
-    width: 100%;
     background-color: pink;
 }
 

@@ -4,52 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sunny or Not??</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div class="titleContainer">
     <header>
-        <h1>Is it sunny, or nah?</h1>
+        <h1>Weather</h1>
     </header>
     </div>
 
     <div class="container">
     <!------ sidebar ------>
-        <aside class="recentCities">
-            <ul class="cities">
-                <li>
-                    New York
-                </li>
-                <li>
-                    Dallas
-                </li>
-                <li>
-                    Houston
-                </li>
-                <li>
-                    Orlando
-                </li>
-                <li>
-                    Memphis
-                </li>
-                <li>
-                    Chicago
-                </li>
-                <li>
-                    Seattle
-                </li>
-            </ul>
-        </aside>
+        <div class="row">
+            <aside class="col-3 recentCities">
+                <ul class="cities">
+                    <li>
+                        New York
+                    </li>
+                    <li>
+                        Dallas
+                    </li>
+                    <li>
+                        Houston
+                    </li>
+                    <li>
+                        Orlando
+                    </li>
+                    <li>
+                        Memphis
+                    </li>
+                    <li>
+                        Chicago
+                    </li>
+                    <li>
+                        Seattle
+                    </li>
+                </ul>
+            </aside>
     <!------ weather cards ------>
-        <section class="forecast">
-            <div class="wrapper">
-                <div class="day">monday</div>
-                <image class="forecastImg"></image>
-                <div class="description">it's gon' rain n stuff</div>
-            </div>
-            
-        </section>
+            <section class="col-9 forecast">
+                <div class="wrapper">
+                    <div class="day">monday</div>
+                    <image class="forecastImg"></image>
+                    <div class="description">it's gon' rain n stuff</div>
+                </div>            
+            </section>
+        </div>
         
     </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
