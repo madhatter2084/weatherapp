@@ -24,7 +24,7 @@ header h1{
     color: white;
 }
 
-.currentWeather{
+.weatherCard{
     background-color: pink;
 }
 
@@ -32,16 +32,20 @@ li{
     list-style-type: none;
 }
 
-.forecastContainer{
+.forecast{
     display: flex;
-    justify-content: space-evenly;
-    
+    margin: 10px;
+}
+
+.currentWeather{
+    margin: 10px;
 }
 
 .block{
     height: 250px;
-    width: 200px;
+    width: 175px;
     border-style: solid;
+    margin: 5px;
 }
 
 .navbar{

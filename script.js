@@ -1,6 +1,7 @@
 // api key 0218f2702681a533f2e51a253c19faab
 $(document).ready(function () {
-    var city = "paramus"
+    var city = "memphis"
+        
         $.ajax({
             method: "GET",
             url: 'http://api.openweathermap.org/data/2.5/forecast?q=' + city + '&units=imperial&appid=0218f2702681a533f2e51a253c19faab',
@@ -8,7 +9,7 @@ $(document).ready(function () {
             console.log(response);
             console.log(response.list[0].main.temp);
 
-            
+
         });
     
 
