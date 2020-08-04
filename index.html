@@ -3,25 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sunny or Not??</title>
+    <title>Weather Forecast</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="titleContainer">
     <header>
         <h1>Weather</h1>
+        <h2 id="date"></h2>
+        <h3 id="time"></h3>
     </header>
-    </div>
-
     <div class="container">
     <!------ sidebar ------>
         <div class="row">
             <aside class="col-3 recentCities">
                 <nav class="navbar navbar-light">
                     <form class="form-inline">
-                      <input id=text class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                      <input id="city" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                      <button id="submitSearch" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                     </form>
                   </nav>
                 <ul class="cities">
@@ -103,7 +102,7 @@
         </div>
         
     </div>        
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="script.js"></script>
 </body>
