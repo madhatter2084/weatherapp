@@ -18,7 +18,7 @@ $(document).ready(function() {
         addBtn();
     }
     function addBtn(){
-        $('#cityBtns').html('');
+        $('#cityBtnsDiv').html('');
         for (var i=0; i < savedCities.length; i++){
             var city = savedCities[i];
             var createBtn = $('<button>');
@@ -41,9 +41,9 @@ $(document).ready(function() {
         addBtn();
     });
 
-    $('#cityBtns').on('click', function(){
+    $('#cityBtnsDiv').on('click',"button", function(){
         var url = 'http://api.openweathermap.org/data/2.5/weather?q='
-        var city = $(this).attr('#data-name')
+        var city = $(this).attr('data-name');
         console.log(city);
         var apiKey = '&units=imperial&appid=0218f2702681a533f2e51a253c19faab'
         $.ajax({
@@ -53,9 +53,12 @@ $(document).ready(function() {
             console.log(response);
             console.log(response.main.temp)
         });
-
-        
-
     });
+
+
+
+
+
+    
         getCities();
     })
