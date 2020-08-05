@@ -1,24 +1,28 @@
-
 header{
     justify-content: center;
-    background-image: url(./Assets/16570.png);
+    background-image: url(./Assets/header.png);
     height: auto;
     margin: 0 auto;
     text-align: center;
+    color: rgb(40,167,69);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-header h1{
-    margin: 0;
-    color: black;
+body{
+    background-color: rgb(52, 61, 77);
 }
 
 .recentCities{
-    background-color: blue;
+    background-color: rgb(32, 32, 32);
     color: white;
 }
 
+aside{
+    text-align: center;
+}
+
 .weatherCard{
-    background-color: pink;
+    background-color: rgb(52, 61, 77);
 }
 
 li{
@@ -43,6 +47,15 @@ li{
 
 .navbar{
     margin-top: 10px;
-    background-color: blue;
+    background-color: rgb(32, 32, 32);
     float: left;
 }
+
+.card{
+    text-align: center;
+}
+
+button{
+    margin: 2px;
+}
+

@@ -23,11 +23,8 @@
                       <button id="submitSearch" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                     </form>
                   </nav>
-                <ul class="savedCities">
-                    <li>
-                        New York
-                    </li>
-                </ul>
+                <div id='cityBtnsDiv' class="savedCities">
+                </div>
             </aside>
     <!------ weather cards ------>
             <section class="col-9 weatherCard">
@@ -35,12 +32,11 @@
                     <div class="col-12 currentWeather">
                         <div class="card">
                             <div class="card-header">
-                              Quote
+                              <h2 id="cityName"></h2>
                             </div>
                             <div class="card-body">
-                              <blockquote class="blockquote mb-0">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                                <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                              <blockquote id='cityWeather' class="blockquote mb-0">
+                                
                               </blockquote>
                             </div>
                           </div>
