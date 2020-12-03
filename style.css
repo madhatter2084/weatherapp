@@ -1,4 +1,4 @@
-header{
+.jumbotron{
     justify-content: center;
     background-image: url(./Assets/header.png);
     height: auto;
@@ -17,38 +17,19 @@ body{
     color: white;
 }
 
-aside{
-    text-align: center;
+#cityDiv,
+.forecastCard{
+    background-color: rgb(32, 32, 32);
+    color: rgb(40, 167, 69);
 }
 
-.weatherCard{
+#currentWeather,
+.forecast{
     background-color: rgb(52, 61, 77);
 }
 
 li{
     list-style-type: none;
-}
-
-.forecast{
-    display: flex;
-    margin: 10px;
-}
-
-.currentWeather{
-    margin: 10px;
-}
-
-.block{
-    height: 250px;
-    width: 175px;
-    border-style: solid;
-    margin: 5px;
-}
-
-.navbar{
-    margin-top: 10px;
-    background-color: rgb(32, 32, 32);
-    float: left;
 }
 
 .card{
@@ -59,3 +40,13 @@ button{
     margin: 2px;
 }
 
+.low {
+    color: #00e42a;
+}
+.high {
+    color: #b80000;
+}
+
+.my-1{
+    width: 100%;
+}
